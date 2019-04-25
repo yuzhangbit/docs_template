@@ -1,0 +1,45 @@
+site_name: docs_template
+repo_url: https://github.com/yuzhangbit/docs_template
+copyright: Yu Zhang Copyright
+site_author: Yu Zhang
+dev_addr: '127.0.0.1:8005'
+
+extra:
+    version: 1.0
+
+theme:
+    name: readthedocs
+    hightlightjs: true
+    hljs_languages:
+        - yaml
+        - rust
+    include_sidebar: true
+markdown_extensions:
+    - extra
+    - tables
+    - toc:
+        baselevel: 2
+        separator: "_"
+    - fenced_code
+    - smarty
+    - mdx_math:
+        enable_dollar_delimiter: true
+    - footnotes
+    - meta
+    - admonition
+    - def_list
+    - abbr
+    - attr_list
+
+extra_javascript:
+    - https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML
+
+plugins:
+    - search
+
+nav:
+- Home: 'index.md'
+- tutorials:
+    - documentation: 'tutorial/documentation.md'
+- Markdown Cheatsheet: 'cheatsheet.md'
+- About: 'about.md'
