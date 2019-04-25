@@ -39,7 +39,7 @@ plugins:
 
 nav:
 - Home: 'index.md'
-- tutorials:
-    - documentation: 'tutorial/documentation.md'
+- Tutorials:
+    - Documentation: 'tutorial/documentation.md'
 - Markdown Cheatsheet: 'cheatsheet.md'
 - About: 'about.md'
