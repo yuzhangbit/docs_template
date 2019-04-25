@@ -6,7 +6,7 @@
 This script will install `mkdocs` and needed extensions.
 
 
-## Host the documents and update the content whenever it changes.
+## Host documents and update the wetsite whenever markdown source files are changed.
 ```
 mkdocs serve
 ```
@@ -17,7 +17,7 @@ In any browser, visit the documentation website via the link below:
 localhost:8005
 ```
 
-## Expose your wesite to the internet:
+## Expose your wesite to others
 ```
 ./scripts/host_locally.sh
 ```
